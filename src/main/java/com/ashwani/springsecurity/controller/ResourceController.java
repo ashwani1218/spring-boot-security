@@ -15,5 +15,13 @@ public class ResourceController {
         return "<h1>Hello World</h2>";
     }
 
+    @GetMapping("/user")
+    public String helloUser(){
+        return "<h1>Hello User</h2>";
+    }
+    @GetMapping("/admin")
+    public String helloAdmin(){
+        return "<h1>Hello Admin</h2>";
+    }
 
 }
